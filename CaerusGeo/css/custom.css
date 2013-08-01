@@ -1,0 +1,10 @@
+/* Custom styles */
+
+body {
+	padding-top: 150px;
+}
+
+.logoTextWrap {
+	float: left;
+	margin: 10px 65px 10px 10px;
+}
