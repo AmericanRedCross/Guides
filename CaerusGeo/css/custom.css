@@ -1,3 +1,7 @@
+hr {
+  width: 0;
+  height: 0;
+}
 .cg-intro {
   padding: 10px;
   font-size: 16px;
@@ -6,6 +10,8 @@
 }
 .cg-intro h1 {
   color: #ed1b2e;
+  font-size: 48px;
+  font-weight: bolder;
 }
 .cg-intro p {
   font-weight: 300;
@@ -23,6 +29,14 @@
 .cg-sidebar .nav > li > a {
   color: #6d6e70;
 }
+.page-header {
+  padding-bottom: 9px;
+  margin: 40px 0 20px;
+  border-bottom: 4px solid #ed1b2e;
+}
+
+
+
 
 
 
