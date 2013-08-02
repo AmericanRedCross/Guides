@@ -2,9 +2,24 @@
 
 body {
 	padding-top: 150px;
+	background-color: #9f9fa3;
+}
+
+.container {
+	background-color: #d7d7d8;
+}
+
+.navbar {
+	padding: 0px;
+	background-color: #ffffff;
 }
 
 .logoTextWrap {
 	float: left;
 	margin: 10px 65px 10px 10px;
+}
+
+.chapter {
+	padding-left: 15px;
+	padding-right: 15px;
 }
