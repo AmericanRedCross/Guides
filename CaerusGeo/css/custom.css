@@ -36,6 +36,14 @@ hr {
   border-bottom: 4px solid #ed1b2e;
 }
 
+.border {
+  border: 1px solid #d7d7d8;
+}
+
+.sideNote {
+  color: #6d6e70;
+  font-weight: 300;
+}
 
 
 
