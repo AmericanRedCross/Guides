@@ -1,4 +1,7 @@
 
+stupid interns
+==============
+
 Translation Workflow for LearnOSM.org
 =====================================
 [LearnOSM](http://learnosm.org/) provides easy to understand, step-by-step guides for you to get started with contributing to OpenStreetMap and using OpenStreetMap and using OpenStreetMap data. Although the site was originally written in English, volunteers have translated the various pages into several languages. These include [Bahasa Indonesia](http://learnosm.org/bi/), [Japanese](httP://learnosm.org/jp/), and others. This document is meant to provide an overview of the process for translating the pages into a new language.  
