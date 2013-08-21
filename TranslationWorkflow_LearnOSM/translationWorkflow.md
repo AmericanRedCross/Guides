@@ -1,14 +1,7 @@
 
-stupid interns
-==============
-
 Translation Workflow for LearnOSM.org
 =====================================
 [LearnOSM](http://learnosm.org/) provides easy to understand, step-by-step guides for you to get started with contributing to OpenStreetMap and using OpenStreetMap and using OpenStreetMap data. Although the site was originally written in English, volunteers have translated the various pages into several languages. These include [Bahasa Indonesia](http://learnosm.org/bi/), [Japanese](httP://learnosm.org/jp/), and others. This document is meant to provide an overview of the process for translating the pages into a new language.  
-
-__GitHub is....__
-__And this graphic shows how everything fits together...__
-> __make and insert snazzy graphic here__
 
 Participant Roles
 -----------------
@@ -36,7 +29,6 @@ Participant Roles
 
 GitHubber Workflow
 ------------------
-### Initial Setup and Preparation ###
 - Create a GitHub account if you don't have one
 - Fork the Learn OSM repository at [https://github.com/hotosm/learnosm](https://github.com/hotosm/learnosm)
 - Make a copy of the 'learnosm/_posts/en' folder
@@ -48,11 +40,22 @@ GitHubber Workflow
 	- login to the GitHub website and open the page for your repository
     - open 'Settings' and then go to 'Collaborators'
     - add the translator account
-- Assign a task by sending a link to a translator   
+- Assign translator a task by    
 
 Translator Workflow
 -------------------
-
+- Create a GitHub account if you don't have one
+- Tell your username to the GitHubber so they can add you as a Collaborator
+- Learn the basics of Markdown    
+    - read the 'Syntax examples' in the [wikipedia entry](http://en.wikipedia.org/wiki/Markdown)
+    - practice creating headings, paragraphs, lists, and emphasized text using [http://markdown.pioul.fr/](http://markdown.pioul.fr/) (the site will show you a side-by-side comparison of what you're typing and how it is interpreted for display on a website)
+    - understand what external links and images look like (the GitHubber will edit links and images as necessary but you shouldn't delete these parts of the pages while translating)
+- Learn the Prose interface
+- Receive an assignment from the GitHubber and translate the content of the assigned page
+- If you encounter a problem with prose.io either create a new issue on the [prose GitHub page](https://github.com/prose/prose/issues) or communicate the problem to the GitHubber so that they can report the isue
+- 
+    
+    		
 
 
 
