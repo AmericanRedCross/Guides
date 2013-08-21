@@ -1,12 +1,12 @@
 
-** Translation Workflow for LearnOSM.org **
-===========================================
+Translation Workflow for LearnOSM.org
+=====================================
 [LearnOSM](http://learnosm.org/) provides easy to understand, step-by-step guides for you to get started with contributing to OpenStreetMap and using OpenStreetMap and using OpenStreetMap data. Although the site was originally written in English, volunteers have translated the various pages into several languages. These include [Bahasa Indonesia](http://learnosm.org/bi/), [Japanese](httP://learnosm.org/jp/), and others. This document is meant to provide an overview of the process for translating the pages into a new language.  
 
-## Participant Roles ##
------------------------
+Participant Roles
+-----------------
 
-1. ** Githubber **
+1. __Githubber__
     - Requirements:
         - a moderate level of technical ability (e.g. using text editors to create/modify website content) or a serious desire and committment to learn
 	    - learn how to use [GitHub](https://github.com/) and learn basic Git theory
@@ -17,7 +17,7 @@
         - modifying some of the hidden elements of the translated pages for proper intergration into the main site
         - quality control and review
         - submit pull requests when ready to go live with translation updates        
-2. **Translator**
+2. __Translator__
     - Requirements:
 	    - learn the basic syntax of Markdown, for composing readable plain text that can be formatted for the web by a program 
         - firm grasp of English and the target language
