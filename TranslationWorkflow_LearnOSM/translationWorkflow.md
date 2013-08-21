@@ -54,7 +54,8 @@ Translator Workflow
 - Receive an assignment from the GitHubber and translate the content of the assigned page
 - If you encounter a problem with prose.io either create a new issue on the [prose GitHub page](https://github.com/prose/prose/issues) or communicate the problem to the GitHubber so that they can report the isue
 - 
-    
+
+![Alt text](https://raw.github.com/AmericanRedCross/Guides/master/TranslationWorkflow_LearnOSM/img/prose01.png)    
     		
 
 
