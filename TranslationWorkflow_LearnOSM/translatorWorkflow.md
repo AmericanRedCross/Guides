@@ -2,7 +2,7 @@
 Detailed Workflow for Translators
 =================================
 
-You want to help translate the information on LearnOSM into an additional language? That's awesome! You are helping make a great resource accessible to a much wider audience. You will be coordinating with a GitHubber team member who will do the more technical work. You need to learn a few, easy technical skills. The hardest required skill is translating from English into your local language and you are already an expert!
+You want to help translate the information on learnOSM into an additional language? That's awesome! You are helping make a great resource accessible to a much wider audience. You will be coordinating with a GitHubber team member who will do the more technical work. You need to learn a few, easy technical skills. The hardest required skill is translating from English into your local language and you are already an expert!
 
 Setup a GitHub Account
 -----------------------
@@ -57,7 +57,7 @@ Navigating to LearnOSM Content Pages on Prose
 
 ![](https://raw.github.com/AmericanRedCross/Guides/master/TranslationWorkflow_LearnOSM/img/prose_nav05.png)
 
-- The page will display all the core content pages of LearnOSM
+- The page will display all the core content pages of learnOSM
 - Scroll down to find the page assigned to you
 
 ![](https://raw.github.com/AmericanRedCross/Guides/master/TranslationWorkflow_LearnOSM/img/prose_nav06.png)
