@@ -1,7 +1,7 @@
 Workflow for GitHubber Team Member
 ==================================
 
-You want to help translate the information on LearnOSM into an additional language? That's awesome! You are helping make a great resource accessible to a much wider audience. You will be coordinating with Translator team members who will do most of the translation work. Your technical skills will allow them to contribute. Feel free to also help with translating! 
+You want to help translate the information on learnOSM into an additional language? That's awesome! You are helping make a great resource accessible to a much wider audience. You will be coordinating with Translator team members who will do most of the translation work. Your technical skills will allow them to contribute. Feel free to also help with translating! 
 
 Getting Ready
 -------------
@@ -13,7 +13,7 @@ Getting Ready
 - Download a text editor for code if you don't have one
 	- One of many options is [Sublime Text](http://www.sublimetext.com/)
 - Review Markdown
-	- The chapters of content on LearnOSM are formatted using Markdown
+	- The chapters of content on learnOSM are formatted using Markdown
     - Wikipedia has an [entry](http://en.wikipedia.org/wiki/Markdown) on Markdown
     - [http://markdown.pioul.fr/](http://markdown.pioul.fr/) shows a side-by-side comparison of what you're typing and how it is interpreted for display on a website
 - Review the translator workflow
@@ -69,7 +69,7 @@ You may have noticed that some of the images have English text included. Editing
 Adding the Translation to LearnOSM
 ----------------------------------
 
-- Issue a [pull request](https://help.github.com/articles/using-pull-requests) to incorporate the work done on your forked repository into the main LearnOSM repository
+- Issue a [pull request](https://help.github.com/articles/using-pull-requests) to incorporate the work done on your forked repository into the main learnosm repository
 - [LearnOSM](http://learnosm.org/) is hosted using [GitHub Pages](http://pages.github.com/) and once your pull request is accepted the changes to the learnosm gh-pages branch automatically update the site within minutes
 - It is a good idea to review the pages again once uploaded to the main site
 	- Check for formatting errors, images that don't load, and broken links
