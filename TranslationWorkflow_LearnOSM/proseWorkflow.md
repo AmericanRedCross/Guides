@@ -18,6 +18,14 @@ Setup a GitHub Account
 - They will add you as a collaborator to the translation project
 - Once you are added, they should assign you a content page to translate
 
+Learn the Basics of Markdown
+----------------------------
+
+- Markdown is....
+- Read the 'Syntax examples' in the [wikipedia entry](http://en.wikipedia.org/wiki/Markdown)
+    - practice creating headings, paragraphs, lists, and emphasized text using [http://markdown.pioul.fr/](http://markdown.pioul.fr/) (the site will show you a side-by-side comparison of what you're typing and how it is interpreted for display on a website)
+    - understand what external links and images look like (the GitHubber will edit links and images as necessary but you shouldn't delete these parts of the pages while translating) 
+
 Navigating to LearnOSM Content Pages on Prose
 ---------------------------------------------
 
@@ -80,7 +88,7 @@ Translating a LearnOSM Content Page on Prose
 
 ![](https://raw.github.com/AmericanRedCross/Guides/master/TranslationWorkflow_LearnOSM/img/prose_edit05.png)
 
-- You should recognize various page elements from your review of Markdown
+- When scrolling through the content of a page you should recognize various page elements from your review of Markdown
 - The image below shows image elements
 	- you should not change images or links when translating
 
@@ -96,3 +104,6 @@ Translating a LearnOSM Content Page on Prose
 ![](https://raw.github.com/AmericanRedCross/Guides/master/TranslationWorkflow_LearnOSM/img/prose_edit08.png)
 
 ![](https://raw.github.com/AmericanRedCross/Guides/master/TranslationWorkflow_LearnOSM/img/prose_edit08.png)
+
+
+- If you encounter a problem with prose.io either create a new issue on the [prose GitHub page](https://github.com/prose/prose/issues) or communicate the problem to the GitHubber team member so that they can report the issue
