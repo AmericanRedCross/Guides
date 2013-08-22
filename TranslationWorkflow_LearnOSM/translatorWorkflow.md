@@ -104,7 +104,7 @@ Translating a LearnOSM Content Page on Prose
 	- You can change the message that describes your changes to be more detailed or you can leave it as the default
 - Click 'Commit' and your changes will be uploaded
 - Communicate with the GitHubber team member
-	- Let them know about progress, delays, and any problems you encounter 
+	- Let them know about progress, delays, and any problems you encounter
 
 ![](https://raw.github.com/AmericanRedCross/Guides/master/TranslationWorkflow_LearnOSM/img/prose_edit08.png)
 
