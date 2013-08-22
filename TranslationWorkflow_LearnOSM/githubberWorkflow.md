@@ -1,0 +1,14 @@
+GitHubber Workflow
+------------------
+- Create a GitHub account if you don't have one
+- Fork the Learn OSM repository at [https://github.com/hotosm/learnosm](https://github.com/hotosm/learnosm)
+- Make a copy of the 'learnosm/_posts/en' folder
+- Rename the 'en' folder using the ISO 639-1 Code for the target language
+    - if the target lanuage only has an alpha-3/ISO 639-2 Code, use it instead
+    - [list of language codes](http://www.loc.gov/standards/iso639-2/php/code_list.php)
+- Assist translator in creating a GitHub account
+- Add translator as a collaborator on the forked repository after they have created an account
+	- login to the GitHub website and open the page for your repository
+    - open 'Settings' and then go to 'Collaborators'
+    - add the translator account
+- Assign translator a task
