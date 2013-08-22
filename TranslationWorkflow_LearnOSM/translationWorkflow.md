@@ -1,4 +1,3 @@
-
 Translation Workflow for LearnOSM.org
 =====================================
 [LearnOSM](http://learnosm.org/) provides easy to understand, step-by-step guides for you to get started with contributing to OpenStreetMap and using OpenStreetMap and using OpenStreetMap data. Although the site was originally written in English, volunteers have translated the various pages into several languages. These include [Bahasa Indonesia](http://learnosm.org/bi/), [Japanese](httP://learnosm.org/jp/), and others. This document is meant to provide an overview of the process for translating the pages into a new language.  
@@ -52,8 +51,7 @@ Translator Workflow
     - understand what external links and images look like (the GitHubber will edit links and images as necessary but you shouldn't delete these parts of the pages while translating)
 - Learn the Prose interface
 - Receive an assignment from the GitHubber and translate the content of the assigned page
-- If you encounter a problem with prose.io either create a new issue on the [prose GitHub page](https://github.com/prose/prose/issues) or communicate the problem to the GitHubber so that they can report the isue
-- 
+- If you encounter a problem with prose.io either create a new issue on the [prose GitHub page](https://github.com/prose/prose/issues) or communicate the problem to the GitHubber so that they can report the issue
 
 ![Alt text](https://raw.github.com/AmericanRedCross/Guides/master/TranslationWorkflow_LearnOSM/img/prose01.png)    
     		
