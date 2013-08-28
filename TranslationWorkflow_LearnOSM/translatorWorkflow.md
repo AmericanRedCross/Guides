@@ -44,10 +44,7 @@ Navigating to LearnOSM Content Pages on Prose
 
 ![](https://raw.github.com/AmericanRedCross/Guides/master/TranslationWorkflow_LearnOSM/img/prose_nav03.png)
 
-- After opening the 'learnosm' folder, open the '_posts' folder by clicking on it
-
-![](https://raw.github.com/AmericanRedCross/Guides/master/TranslationWorkflow_LearnOSM/img/prose_nav04.png)
-
+- You should be directed to the '_posts' folder
 - The folders on the page hold the different translations
 	- 'bi' is Bahasa Indonesia 
     - 'en' is English
@@ -55,12 +52,12 @@ Navigating to LearnOSM Content Pages on Prose
 - The GitHubber team member will let you know the code for your target language 
 - Scroll down to find the folder for your language and open it by clicking on it
 
-![](https://raw.github.com/AmericanRedCross/Guides/master/TranslationWorkflow_LearnOSM/img/prose_nav05.png)
+![](https://raw.github.com/AmericanRedCross/Guides/master/TranslationWorkflow_LearnOSM/img/prose_nav04.png)
 
 - The page will display all the core content pages of learnOSM
 - Scroll down to find the page assigned to you
 
-![](https://raw.github.com/AmericanRedCross/Guides/master/TranslationWorkflow_LearnOSM/img/prose_nav06.png)
+![](https://raw.github.com/AmericanRedCross/Guides/master/TranslationWorkflow_LearnOSM/img/prose_nav05.png)
 
 Translating a LearnOSM Content Page on Prose
 --------------------------------------------
