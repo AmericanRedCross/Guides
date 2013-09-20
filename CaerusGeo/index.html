@@ -24,7 +24,7 @@
 				<li><a href="#intro">Introduction</a></li>              
 				<li><a href="#overview">Overview</a></li>
 				<li><a href="#getready">Getting Ready</a></li>	
-				<li><a href="#build">Building Your Survey Online</a></li>				
+				<li><a href="#build">Building Your Survey Online</a></li>		
 				<li><a href="#collecting">Collecting Data</a></li>	
 				<li><a href="#entry">Computer Data Entry</a></li>
 				<li><a href="#using">Using Your Data</a></li>	
@@ -34,7 +34,8 @@ function googleTranslateElementInit() {
   new google.translate.TranslateElement({pageLanguage: 'en', layout: google.translate.TranslateElement.FloatPosition.TOP_RIGHT}, 'google_translate_element');
 }
 </script><script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script></li>
-			<li><a href="../../mobiledatacollection"><em>Return to Mobile Data Collection Home</em></a></li>	
+			<li><a href="pdf/CaerusGeoWalkthrough_09-20-13.pdf" target="_blank"><em>Download a PDF Version of the Guide</em></a></li>
+			<li><a href="../../mobiledatacollection"><em>Return to Mobile Data Collection Home</em></a></li>				
 			</ul>
 		</div>
 	</div>
@@ -93,12 +94,33 @@ function googleTranslateElementInit() {
 			<p>Lines?  <span class="sideNote">Such as evacuation routes.</span></p>
 			<hr>
 		<img src="img/build3.png" alt="Step 3" title="Step 3" style="max-width:100%;">
-		<h3 id="build3">Step 3 - Survey Fields</h3>
+		<h3 id="build3A">Step 3 A - Survey Design</h3>
+			<p>Creating a survey is not as simple as just creating questions. You need to think about what questions you ask and how you structure them to get the best data possible. Below are a few tips: </p>
+			<ul>
+				<li>We strongly recommend always using multiple choice fields whenever possible. This keeps answers consistent so you can compare between inputs.</li>
+				<li>Avoid text fields whenever possible. Data will be inconsistent and impossible to compare.</li>
+				<li>Only ask for data you really need. If you want to capture extra data, click the “Note” button.</li>
+				<li>If using CaerusGeo as part of a larger GIS fieldwork exercise, have your answers in CaerusGeo line up with the attributes in your fieldwork spreadsheet guide.</li>
+			</ul>
+			<hr>
+		<h3 id="build3B">Step 3 B - Survey Fields</h3>
 			<p>Step three is to enter your survey fields. Each field requires a descriptive ‘Field Heading’ and a ‘Field Type’ that defines the format of the answer. Will the survey answer be: </p>
 			<p>Text?  <span class="sideNote">Such as name or description.</span></p>
 			<p>Number?  <span class="sideNote">Such as age, population, or monetary amount.</span></p>
 			<p>Date?  <span class="sideNote">A specific calendar day.</span></p>
-			<p>Date + Time?  <span class="sideNote">A specific calendar day, hour, and minute</span></p><hr>
+			<p>Date + Time?  <span class="sideNote">A specific calendar day, hour, and minute</span></p>
+			<p>Multiple Choice (one answer)?  <span class="sideNote">Allows for selecting a single option from a list of predefined options. Should be used when answers are mutually exclusive. Examples:
+				<ul class="sideNote">
+					<li>A survey about volunteers with a field for sex: [male, female]</li>
+					<li>A survey about roads with a field for type: [asphalt, cement, gravel, sand, clay, dirt]</li>					
+				</ul>
+			</span></p>
+			<p>Multiple Choice (one or more answers)?  <span class="sideNote">Allows for selecting one or more options from a list of predefined options. Should be used when more than one answer might apply. Examples:
+				<ul class="sideNote">
+					<li>A survey about hazards with a field for reported type(s): [crime, road accident, landslide, flood, fire]</li>
+					<li>A survey about health clinics with a field for personnel: [health officer, dentist, nurse, midwife, sanitary inspector, physician]</li>					
+				</ul>
+			</span></p><hr>			
 		<img src="img/build4.png" alt="Step 4" title="Step 4" style="max-width:100%;">
 		<h3 id="build4">Step 4 - Survey Area</h3>
 			<p>Step four is to delineate your survey area. Let’s start by moving around the map!</p>
