@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+	    <meta charset="utf-8">
+	    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	    <meta name="description" content="">
+	    <meta name="author" content="American Red Cross International Services Department">
+
+	    <title>American Red Cross: Guide to GIS Fieldwork</title>
+	    
+	    <link href="css/bootstrap.min.css" rel="stylesheet">
+	    <link href="css/custom.css" rel="stylesheet">
+	    <link rel="shortcut icon" href="img/favicon.png">
+
+
+ 	</head>
+
+	<body>
+
+<div class="container">
+	<div class="col-lg-3">
+		<div class="cg-sidebar" style="position:fixed">
+			<ul class="nav cg-sidenav">
+				<li style="margin:30px 15px;"><img src="img/ARC_logo.png" height="50px"></li>
+				<li><a href="#intro">Introduction</a></li>              
+				<li><a href="#technologyused">Technology Used</a></li>
+				<li><a href="#typesofdata">Type of Data</a></li>	
+				<li><a href="#methodology">Methodology and Logistics</a></li>		
+				<li><a href="#workflow">Start-to-Finish, Step-by-Step</a></li>	
+				<li><a href="#samplereferencesheet">Sample Reference Sheet</a></li>
+				<li><a href="#sampledatacollectionsheet">Sample Data Collection Sheet</a></li>					
+				<li style="margin: 25px 0 0 15px;"><div id="google_translate_element"></div><script type="text/javascript">
+function googleTranslateElementInit() {
+  new google.translate.TranslateElement({pageLanguage: 'en', layout: google.translate.TranslateElement.FloatPosition.TOP_RIGHT}, 'google_translate_element');
+}
+</script><script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script></li>
+			<li><a href="pdf/Guide_to_GIS_Fieldwork_v1.1.pdf" target="_blank"><em>Download a PDF Version of the Guide</em></a></li>
+			<li><a href="../../"><em>American Red Cross GIS Home</em></a></li>				
+			</ul>
+		</div>
+	</div>
+
+	<div class="col-lg-9" style="background-color:#f5f5f5;">		
+	<div class="cg-intro container" id="intro">
+	    <h1>Guide to GIS Fieldwork</h1>
+    	<p class="lead">A Primer on Managing Spatial Data Collection in the Field</p> 
+    	<h5><a href="pdf/Guide_to_GIS_Fieldwork_v1.1.pdf" target="_blank">Download a PDF Version of this Guide</a></h5>    
+  	</div>    
+  	<div class="otherPlaces container">
+    	<p>The GIS office at American Red Cross is deeply involved in international disaster response and disaster preparedness programs throughout the world.  Accurate and quality surveys to establish baseline and monitoring data allows Red Cross chapters around the world it better implement programs.</p>
+    	<p>This guide provides a broad overview of some the underlying concepts behind GIS fieldwork. It also provides advice and a basic framework for carrying out a mapping and data collection project. More information and resources can be found at <a href="http://americanredcross.github.io" target="_blank">http://americanredcross.github.io</a>.</p>
+  	</div>
+	<div class="chapter">
+		<div class="page-header"> 
+			<h1 id="technologyused">Technology Used</h1>
+		</div>
+		<p><b>Note of Caution:</b> All electronic devices are expensive and must be monitored to avoid possible thievery. Smartphones in particular are status items in much of the developing world and will be a target for thieves or opportunistic volunteers.</p><hr>
+		<img class="pull-right" src="img/garmingps.png" width="100px" style="margin:5px 30px;">
+		<h3>Garmin GPS</h3>
+		<ol>
+			<li>A Garmin GPS unit is your standard, day-to-day GPS device. It is durable, it has a long battery life, and it records accurate information. Garmin units can record lines, take points, and route you to destinations.</li>
+			<li>The major flaw of a Garmin is the unclear interface which requires extensive training for accurate data collection. Text data entry is very time consuming and error prone on Garmin units. For this reason we recommend using a complementary data collection spreadsheet printout when using Garmin units.</li>
+			<li>If you don’t have a smartphone, then a Garmin will be your go-to GPS. Otherwise, a Garmin will be used for heavy duty mapping in rough circumstances where you are liable to damage a smartphone.</li>
+		</ol>
+		<hr>
+		<img class="pull-right" src="img/gpsdatalogger.jpg" width="100px" style="margin:5px 30px;">
+		<h3>GPS Data Logger</h3>
+		<ol>
+			<li>A data logger has the same functionality as a Garmin, but with a much more basic interface. Data loggers automatically record lines of your movements and collect points of interest (POIs) at the push of a button. Data loggers can also connect to other devices via Bluetooth.</li>
+			<li>Data loggers are great for simplifying GPS work or augmenting the GPS of another device. We mostly use them to connect to smartphones.</li>		
+		</ol>
+		<hr>
+		
+		<h3>Smartphone (+ Data Logger)</h3>
+		<img class="pull-right border"  src="img/smartphone.jpg" height="150px" style="margin:5px 15px;">
+		<ol>
+			<li>Smartphones have great interfaces but inaccurate built-in GPS units. When paired with a high-precision external GPS unit (also known as a data logger) they work great as an intuitive platform for GPS data collection. Smartphones have a higher learning curve at first, but are much easier to use in the long run, meaning you can pair your GPS work with surveying, photography, or other essential digital fieldwork.</li>
+			<li>Smartphones paired with GPS data loggers make great everyday GPS units. They’re especially useful in situations where you want to collect a lot of attribute information or heavily structure your data collection.</li>
+			<li>Smartphones consume battery power quickly, so spare batteries will be necessary. Pack at least 2 batteries per phone.</li>
+			<li>Smartphones can be delicate, so avoid using them in particularly rough environments where they might be damaged or destroyed.</li>		
+		</ol>
+		<hr>
+
+		<h3>Field Papers</h3>
+		<img class="border" src="img/fieldpapers1.png" width="49%" style="margin-bottom:15px;">
+		<img class="border" src="img/fieldpapers2.png" width="49%" style="margin-bottom:15px;">
+		<ol>
+			<li>Field Papers are a tool, not a device.</li>
+			<li>The Field Papers website (<a href="http://fieldpapers.org" target="_blank">http://fieldpapers.org/</a>) lets you divide an <a href="http://osm.org" target="_blank">Open Street Map</a> (OSM) extent of your choosing into a grid. The site then delivers an “atlas” as a PDF to print with a master cover page and a page for each grid section. Every page comes with personalized instructions/notes of your choosing at the bottom and plenty of room for annotation. This method makes it easier to gather data to add to base maps (Open Street Map) by allowing you to reference existing digital data while in the field.</li>
+			<li>Field Papers are well suited to quick, low-tech data collection exercises in places where a significant amount has already been mapped and uploaded to OSM. They make it easy to record attributes or additional items for the map with nothing more than a paper and pen.</li>
+			<li>Field Papers are <em>not</em> suited for areas where the existing OSM data is too poor for the volunteer to orient him / herself and accurately record the locations of additional places of interest on the map.</li>	
+			<li>Field Papers can be used to collect information not suited for open distribution via Open Street Map (OSM), but only if care is taken to note that this data is for internal usage only.</li>
+			<li>Field Papers should <em>only</em> be used when support from staff trained in contributing to OSM is available. These staff may be: NHQ GIS team on the ground; NHQ GIS team working remotely; delegates or National Society staff trained on contributing to OSM; OSM trained volunteers (perhaps directly recruited from the local OSM community).</li>
+
+		</ol>
+		<hr>
+
+		<h3>CaerusGeo</h3>		
+		<ol>
+			<li>Like Field Papers, CaerusGeo is a tool, not a device. It allows users to collect spatial data on paper and later digitize it through a web browser, all without knowing a thing about GIS. CaerusGeo is best suited for primary data (information which is collected first-hand for a specific purpose), but it can also be used for base data.</li>
+			<li>The CaerusGeo website (<a href="http://caerusgeo.com" target="_blank">http://caerusgeo.com/</a>) lets you choose any location in the world and turn the OSM data for that location into a multi-page paper atlas to print for use in the field. You also build and print worksheets with structured information fields to gather data alongside your maps.</li>
+			<li>The website provides a user-friendly interface for digitizing, storing, sharing, and visualizing your data.</li>
+			<li>CaerusGeo is well suited for situations in which access to electronic equipment is limited and makes it easy for volunteers without technical skills to assist. It facilitates data export and lets you easily send data to project staff, GIS specialists, and project partners.</li>
+			<li>CaerusGeo is not suited for areas where the existing OSM data is too poor for the volunteer to orient him / herself and accurately record locations on the map.</li>		
+		</ol>
+		<hr>
+
+		<h3>Example Use Scenarios</h3>
+
+		<table class="table">
+			<thead>
+				<tr>
+					<th>Example Scenario</th>
+					<th>Garmin/ Smartphone</th>
+					<th>Field Papers</th>
+					<th>Caerus Geo</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>You want to map a few residential roads that are missing from Open Street Map.</td>
+					<td><span class="glyphicon glyphicon-ok"></span></td>
+					<td><span class="glyphicon glyphicon-ok"></span></td>
+					<td></td>
+				</tr>
+				<tr>
+					<td>You want to map evacuation routes and shelters.</td>
+					<td><span class="glyphicon glyphicon-ok"></span></td>
+					<td></td>
+					<td><span class="glyphicon glyphicon-ok"></span></td>
+				</tr>
+				<tr>
+					<td>You want to record the locations of volunteers.</td>
+					<td><span class="glyphicon glyphicon-ok"></span></td>
+					<td></td>
+					<td><span class="glyphicon glyphicon-ok"></span></td>
+				</tr>
+				<tr>
+					<td>You want to record community boundaries.</td>
+					<td><span class="glyphicon glyphicon-ok"></span></td>
+					<td><span class="glyphicon glyphicon-ok"></span></td>
+					<td><span class="glyphicon glyphicon-ok"></span></td>
+				</tr>
+				<tr>
+					<td>No data currently exists for a community and you want to map all roads.</td>
+					<td><span class="glyphicon glyphicon-ok"></span></td>
+					<td></td>
+					<td></td>
+				</tr>
+			</tbody>
+		</table>
+
+	</div>
+	<div class="chapter">
+	    <div class="page-header">
+	    	<h1 id="typesofdata">Types of Data</h1>
+	    </div>
+	    <p>Geographic data is recorded as one of three types.</p>
+	    <div style="text-align:center;"><img class="border" src="img/typesofdata.jpg" width="90%" style="margin-bottom:15px; max-width:500px;"></div>
+	    <h3>Points</h3>
+	    <ul>
+	    	<li>Points represent a specific spot on the earth. The spot is described by a latitude coordinate and a longitude coordinate. A point is often a simple way to represent a larger area, like a community or village.</li>
+	    	<li>Points can be collected using the waypoint or point functions on any electronic GPS device.</li>
+	    </ul>	
+	    <h3>Lines</h3>
+	    <ul>
+	    	<li>Lines represent a path and are described by a series of points along the path. Lines are often used to represent routes or to outline areas. A more detailed line will have a greater number of points describing it.</li>
+	    	<li>Lines can be collected by turning on the tracking features of any electronic GPS device.</li>
+	    </ul>
+		<h3>Polygons</h3>
+		    <ul>
+		    	<li>Polygons are enclosed, self-contained areas. They represent the outline of an enclosed area, such as a building footprint or an administrative boundary. Polygons are hard to collect using GPS.</li>
+		    	<li>Polygons can be collected a number of ways.</li>
+		    	<ul>
+		    		<li>The best method is to collect a line while tightly walking or driving around the outline of the area in question 3 times. Take a point at the end to label the area. The recorded lines can be transformed into a polygon digitally at a later time.</li>
+		    		<li>An area may be large or the terrain difficult; you may be unable to travel the outline. Under such circumstances you can take a representative point. All representative points should be taken at the same reference location (for example: the center of villages, the southwest corner of buildings, etc.).</li>		    		
+		    	</ul>
+		    </ul>
+		    <hr>
+	</div>
+	<div class="chapter">
+	    <div class="page-header">
+	    	<h1 id="methodology">Methodology and Logistics</h1>
+	    </div>
+	    <h3>General</h3>
+	    <ul>
+	    	<li>Assign a survey field work manager.</li>
+	    	<li>Every data collector should have a GPS unit. Pairs are slower!</li>
+	    	<li>In rural areas, every data collector should have access to motorized transport if at all possible. Transportation greatly increases the efficiency of the process.</li>
+	    	<li>Only use Field Papers in areas where the base map is reasonably complete so data collectors can orient themselves using the printed pages.</li>
+	    	<li>Write down technical steps (for example, how to turn on devices, how to record points with devices, etc.) for reference.</li>
+	    	<li>Write methodologies (for example, for lines walk down center of streets, for points stand at the southeast corners of buildings, etc.) down for reference.</li>
+	    	<li>Make a daily list of data collectors and which device(s) they have.</li>
+	    	<li>If possible, show data collectors the results of their work at the end of the day or the beginning of the next day, and review / correct any errors.</li>
+	    	<ul>
+		    	<li>This illustrates the importance of data quality and gets volunteers excited about the work.</li>	    	
+		    </ul>
+	    	<li>Keep many extra copies of manuals and data collection sheets, they will inevitably be dirtied and destroyed.</li>
+	    </ul>
+	    <h3>Time Management and Coverage</h3>
+	    <ul>
+	    	<li>Subdivide the assessment area (if using Field Papers or CaerusGeo, use the atlas pages as the divisions) into different geographic sections and assign a surveyor to each.</li>
+	    	<li>Have a target coverage area for each day and an overall work plan to assess the entire area.</li>
+	    	<li><em>Beginning of the day:</em> Gather volunteers every day, assign them a new area, give them devices, and place them on transit. If necessary do a technical refresher.</li>
+	    	<li><em>End of day:</em> Gather volunteer’s devices, check the quality of the data, and show them the results of their work. Identify mistakes and errors, and then explain to the volunteers how to avoid the problems in the future.</li>	    	
+	    </ul>
+	    <h3>Data organization</h3>
+	    <ul>
+	    	<li>A list of points of interest (POIs) specifying what type of data you want (point, line or polygon)</li>
+	    	<li>A standard location for taking points relative to each type of POIs. Examples:</li>
+	    	<ul>
+		    	<li>To the south in the doorway of homes</li>	    	
+		    	<li>In the center of the fields for flood zones</li> 
+		    	<li>In the center of schoolyards for schools</li> 
+		    </ul>
+	    	<li>A standard set of attributes (additional information) to be collected for each feature collected. For example:</li>
+	    	<ul>
+		    	<li>Bridge construction materials (wood or steel)</li>
+		    	<li>Disaster resilient (for example, buildings which have been raised to protect from flooding or buildings reinforced to protect from earthquakes)</li>	    	
+		    	<li>Services offered at the clinic</li>		    	
+		    	<li>Road name, road type</li>		    	
+		    	<li>School name and type (Primary school, secondary school), church name and type (Catholic, Evangelical)</li>    	
+		    	<li>Meeting place type (under a tree, in a schoolyard, village leader’s house)</li> 	
+		    </ul>
+	    	<li>A standard nomenclature for POIs</li>
+	    	<ul>
+		    	<li>For example: XYZ Primary School vs. Primary School of XYZ</li>		    	
+		    </ul>
+	    	<li>Optional: An acceptable precision for each POI</li>
+	    	<ul>
+		    	<li>For example: Must be 3 meters or less accuracy to take a household point</li>
+		    	<li>Important for some urban work, not so much for rural / peri-urban</li>		    			    	
+		    </ul>
+	    	<li>See end of guide for <a href="#samplereferencesheet">sample reference sheet</a> and <a href="#sampledatacollectionsheet">sample data collection sheet</a></li>    	
+	    </ul>
+	    <p>For Field Papers:</p>
+	    <ul>
+	   	<li>Specify whether to write on the sheet or on a separate piece of paper</li>
+	   	<li>Specify whether to number and what system to use</li>
+	   	<li>Modify data collection sheet above for field papers</li>
+	   	<ul>
+	   		<li>For example, make sure attribute tags are appropriate for Open Street Map</li>
+	   	</ul>
+	   	<li>Two volunteers per field paper set is OK</li>
+	   	<ul>
+	   		<li>One to navigate and call out information, the other to write</li>
+	   	</ul>
+	    </ul>
+	    
+	<hr>			
+	</div>	    
+	<div class="chapter">
+	    <div class="page-header">
+	    	<h1 id="workflow">Start-to-Finish, Step-by-Step</h1>
+	    </div>
+		<h3>Planning</h3>
+	    <ol>
+	    	<li>Do I have a solid plan how these maps will be used? Can I explain it easily to others and to data collection volunteers?</li>	    	
+	    </ol>	
+
+	    <h3>Setup</h3>
+	    <ol>
+	    	<li>Brainstorm and identify the map(s) you want to see</li>
+	    	<ol>
+		    	<li>What’s the purpose of the map(s)?</li>	    	
+		    	<li>Important POIs</li>	    	
+		    	<li>What format they take</li>	    	
+		    	<li>What information you need about them</li>	    			    	
+		    </ol>
+	    	<li>Familiarize oneself with GPS devices (if not already familiar)</li>
+	    	<ol>
+		    	<li>Read NHQ manuals</li>
+		    	<li>Use GPS in question a few times to familiarize / troubleshoot</li>	    			    		    	
+		    </ol>
+	    	<li>Gather resources</li>
+	    	<ol>
+		    	<li>Identify necessary number of volunteer</li>
+		    	<li>Procure appropriate GPS devices / field papers</li>	    	
+		    	<li>Arrange transport or make transport plan</li>	    	
+		    	<li>Procure supplies (food etc. for volunteers)</li>	    	
+		    	<li>Technical guides and training manuals / trainers from NHQ (if you don’t already have)</li> 
+		    </ol>
+		    <li>Create data collection overview sheet</li>
+	    	<ol>
+		    	<li>POIs</li>
+		    	<li>Naming</li>	    	
+		    	<li>Data type</li>	    	
+		    	<li>Attributes</li>	    	
+		    	<li>Create training data collection sheet (or use existing one)</li> 
+		    </ol>
+	    </ol>
+
+	    <h3>Training</h3>
+	    <ol>
+	    	<li>Introduce devices</li>
+	    	<ol>
+		    	<li>Train on device functions (1-2 hours)</li>
+		    	<li>Train on recording of attributes into devices</li>	    	
+		    </ol>
+	    	<li>Introduce project</li>
+	    	<ol>
+		    	<li>Explain the intent of the mapping exercise to volunteers</li>
+		    	<li>Prepare them to give a simple explanation to any government officials or law enforcement who might question them regarding their activities</li>	    	
+		    </ol>
+		    	<ol>
+			    	<li>Sometimes GPS devices make people nervous, so it is best to be prepared</li>  	    	
+			    </ol>
+	    	<li>Training exercise (should be 1-2 hours,  4 hours MAXIMUM)</li>
+		    	<ol>
+			    	<li>Send out field teams to small, previously delineated area for mock data collection effort</li>
+			    	<li>Review of training</li>
+			    	<ol>
+				    	<li>Load in data</li>
+				    	<li>Crudely map (in Google Earth, etc.) and identify collection errors</li>	    	
+				    </ol>	    	
+			    </ol>
+	    </ol>
+
+	    <h3>Pre-Collection Checklist</h3>
+	    <h5>Training</h5>
+	    <ol>
+	    	<li>Are my data collectors able to take points, lines and polygons and name them?</li>
+	    	<li>Are my data collectors well informed on the places they will go? The data they need to collect?</li>
+	    	<li>Are my data collectors 100% comfortable with using the devices and collecting the data I need?</li>
+	    	<li>Are my data collectors prepared to explain themselves to any officials who ask what they’re doing?</li>	    	
+	    </ol>
+	    <h5>Logistics</h5>
+	    <ol>
+	    	<li>Have I got enough equipment (devices, extra batteries, etc.)?</li>
+	    	<li>Is equipment ready (batteries charged, etc.) and labeled?</li>
+	    	<li>Do I have backup devices? A contingency plan?</li>
+	    	<li>Do I have clear assignments ready for all my data collectors?</li>
+	    	<li>Have I arranged transport for my data collectors?</li>
+	    	<li>Do my data collectors know where they’re going today?</li>
+	    	<li>Do I have data summary sheets for all my data collectors?</li>
+	    </ol>
+
+	    <h3>Collection</h3>
+	    <ol>
+	    	<li>Beginning of the day (1 hour maximum)</li>
+	    	<ol>
+		    	<li>Gather volunteers</li>
+		    	<li>Assign them a new area + give them any available maps for orientation</li>
+		    	<li>Give them devices / field papers / CaerusGeo documents</li>
+		    	<li>If necessary do a 15 minute technical refresher</li>
+		    	<li>Provide transport</li>		    	
+		    </ol>
+	    	<li>End of day (30 minutes - 1 hour)</li>
+	    	<ol>
+		    	<li>Gather devices from volunteers</li>
+		    	<li>Check the quality of the data</li>
+		    	<li>Identify mistakes or errors and explain how to avoid the mistakes in the future</li>
+		    	<li>Show volunteers the results of their work</li>		    			    	
+		    </ol>	    	
+	    </ol>
+
+	    <h3>Post-Collection Checklist</h3>
+	    <ol>
+	    	<li>Are my daily targets realistic? Do I need to adjust my work plan to accommodate a faster or slower rate of data collection than anticipated?</li>
+	    	<li>Have I checked the quality of the data? Is the correct information being collected?</li>    	
+	    </ol>  
+	
+		<hr>
+		
+	</div>
+	<div class="chapter">
+	    <div class="page-header">
+	    	<h1 id="samplereferncesheet">Sample Reference Sheet</h1>
+	    </div>
+
+	    <table class="table">
+			<thead>
+				<tr>
+					<th>POI</th>
+					<th>Data Type</th>
+					<th>Name Format Example</th>
+					<th>Notes Regarding Collection</th>
+					<th>Attribute 1</th>
+					<th>Attribute 2</th>
+					<th>Attribute 3</th>
+					<th>Attribute 4</th>					
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>School</td>
+					<td>Polygon</td>
+					<td>[NAME] Primary School <b>St. John's Primary School</b></td>
+					<td>record track while walking around 3 times, or record point in center of schoolyard</td>
+					<td>school level</td>
+					<td># of male students</td>
+					<td># of female students</td>
+					<td># of teachers</td>
+				</tr>
+				<tr>
+					<td>Clinic</td>
+					<td>Polygon</td>
+					<td>[NAME] [Clinic Type]<b>Butaleja General Health Clinic Level II</b></td>
+					<td>record track while walking around 3 times, or record point at SE corner of building</td>
+					<td>days of week open</td>
+					<td># of health care providers</td>
+					<td>Type of clinic</td>
+					<td></td>
+				</tr>
+				<tr>
+					<td>Church</td>
+					<td>Polygon</td>
+					<td>[NAME] [Type of Church] <b>Nuestra Senora de las Montanas Cathedral</b></td>
+					<td>record track while walking around 3 times, or record point at SE corner of building</td>
+					<td>religion</td>
+					<td>capacity (# of people)</td>
+					<td>building type (wood, brick, stone, etc.)</td>
+					<td></td>
+				</tr>
+				<tr>
+					<td>Well</td>
+					<td>Point</td>
+					<td>[NAME] [Type of well] [#] <b>Butaleja Borehole II</b></td>
+					<td>record point </td>
+					<td>type (hand, electric, etc.)</td>
+					<td>Working?</td>					
+					<td></td>
+					<td></td>
+				</tr>
+				<tr>
+					<td>Telephone pole</td>
+					<td>Point</td>
+					<td>Pole [#]</td>
+					<td>record point </td>
+					<td>construction (wood, metal, etc.)</td>
+					<td>Working?</td>					
+					<td></td>
+					<td></td>
+				</tr>
+				<tr>
+					<td>Recreation field</td>
+					<td>Polygon</td>
+					<td>[Type] field <b>Futbol field</b></td>
+					<td>record track while walking around 3 times</td>
+					<td>type (basketball, football, etc.)</td>
+					<td></td>
+					<td></td>
+					<td></td>
+				</tr>
+				<tr>
+					<td>Evacuation route</td>
+					<td>Line</td>
+					<td>[Type] evacuation route [#] <b>Coastal evacuation route 3</b></td>
+					<td>record track while travelling path (travel the center if possible)</td>
+					<td># of lanes</td>
+					<td>surface (paved, gravel, dirt, etc.)</td>
+					<td></td>
+					<td></td>
+				</tr>
+			</tbody>
+		</table>
+		
+		<hr>
+	</div>
+
+	<div class="chapter">
+	    <div class="page-header">
+	    	<h1 id="sampledatacollectionsheet">Sample Data Collection Sheet</h1>
+	    </div>
+	    <img src="img/sampledatacollectionsheet.png" width="100%">		
+		<hr>
+	</div>
+	
+	<div style="height:500px;">	</div>	
+ 
+</div> <!-- close col-lg-9 -->
+</div> <!-- close body container -->
+
+
+
+
+
+    <!-- jQuery -->
+    <script src="js/jquery-1.9.1.min.js"></script>
+    <!-- all compiled plugins -->
+    <script src="js/bootstrap.min.js"></script>
+
+  </body>  
+</html>

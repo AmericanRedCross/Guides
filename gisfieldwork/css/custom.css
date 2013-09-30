@@ -1,0 +1,52 @@
+
+hr {
+  width: 0;
+  height: 0;
+  margin-bottom: 40px;
+}
+.cg-intro {
+  padding: 10px;
+  font-size: 16px;
+  color: #5a5a5a;
+  border-bottom: 1px solid #e5e5e5;
+}
+.cg-intro h1 {
+  color: #ed1b2e;
+  font-size: 48px;
+  font-weight: bolder;
+}
+.cg-intro p {
+  font-weight: 300;
+  line-height: 1.5;
+}
+.otherPlaces {
+  padding: 15px 20px;
+  color: black;
+  background-color: #fafafa;
+  border-bottom: 1px solid #e5e5e5;
+}
+.otherPlaces strong {
+  color: #555;
+}
+.cg-sidebar .nav > li > a {
+  color: #6d6e70;
+}
+.page-header {
+  padding-bottom: 9px;
+  margin: 90px 0 20px;
+  border-bottom: 4px solid #ed1b2e;
+}
+
+.border {
+  border: 1px solid #d7d7d8;
+}
+
+.sideNote {
+  color: #6d6e70;
+  font-weight: 300;
+}
+
+
+
+
+
