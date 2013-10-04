@@ -3,6 +3,8 @@ Updating Images Workflow (for githubber)
 
 ![](https://raw.github.com/AmericanRedCross/Guides/master/TranslationWorkflow_LearnOSM/img/inkscapelogo.png) [ Inkscape](http://inkscape.org/) is an Open Source vector graphics editor. Its many features and streamlined interface make it a useful tool. Download and install the program to follow along with this workflow. However, if you are familiar with a different graphics editor you can use your it and your own methods in the Editing the Image section of this workflow. 
 
+*Note: Some images may require new screen-grabs. This workflow covers the basic process of replacing a text box.*
+
 
 Getting Ready
 -------------
