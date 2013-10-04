@@ -4,7 +4,8 @@ Updating Images Workflow (for githubber)
 ![](https://raw.github.com/AmericanRedCross/Guides/master/TranslationWorkflow_LearnOSM/img/inkscapelogo.png) [ Inkscape](http://inkscape.org/) is an Open Source vector graphics editor. Its many features and streamlined interface make it a useful tool. Download and install the program to follow along with this workflow. However, if you are familiar with a different graphics editor you can use your it and your own methods in the Editing the Image section of this workflow. 
 
 
-####Getting Ready####
+Getting Ready
+-------------
 
 + Find an image you want to translate/edit. There is specific markdown syntax for images. In the **0200-12-29-start-osm.md** chapter the third section is **NAVIGATE THE MAP** and includes an image with text. The position in the chapter text where the image appears is marked with the following code:
 
@@ -31,7 +32,8 @@ At the end of the file, the location and file name of the image is contained in 
 	- If 'en' appears somewhere else in the file name, delete it.
 + At this step the **learnosm/images** folder would contain both a **en_beg_ch2_image02.png** file and a **xx_beg_ch2_image02.png** file.
 
-####Editing the Image####
+Editing the Image
+-----------------
 
 + Open Inkscape and then open the image file. Choose to **embed** the image.
 + From the **View** menu dropdown select **Zoom** and then **Drawing** to zoom to the image.
@@ -63,7 +65,8 @@ At the end of the file, the location and file name of the image is contained in 
 
 ![](https://raw.github.com/AmericanRedCross/Guides/master/TranslationWorkflow_LearnOSM/img/xx_beg_ch2_image02.png)
 
-####Update the Code for the Chapter####
+Update the Code for the Chapter
+-------------------------------
 
 + Open the chapter file in a text editor for code. Go to the end of the file and find the location and file name of the image.
 + Change the file name to match the translated image.
