@@ -30,10 +30,27 @@ Preparing the Folders and Files
     - If the target lanuage only has an alpha-3/ISO 639-2 Code, use it instead
     - List of [language codes](http://www.loc.gov/standards/iso639-2/php/code_list.php)
 - ** coming soon: explaination of .md files and chapters **
+- Make a copy of the 'learnosm/images/en' folder and rename the copy using the two letter language code
 - Edit the metadata for each chapter
 	- Open the file in a text editor
     - The metadata will be at the top
     - Change 'en' in permalink and lang to the code for the target language
+- Edit the image paths for each chapter
+	- At the end of the chapter will be a list of image references like the following:
+```
+[A village in Indonesia]: {{site.baseurl}}/images/en/en_beg_01_introduction_image00_village-in-indonesia.png
+[Example of a hand-drawn map]: {{site.baseurl}}/images/en/en_beg_01_introduction_image01_hand-drawn-map.png
+[Examples of symbols]: {{site.baseurl}}/images/en/en_beg_01_introduction_image02_examples-of-symbols.png
+[Mapping on Computer]: {{site.baseurl}}/images/en/en_beg_01_introduction_image03_mapping-on-computer.png
+[Digital maps with OpenStreetMap]: {{site.baseurl}}/images/en/en_beg_01_introduction_image04_digital-maps-with-osm.png
+```
+	- Change the folder name (the first 'en' directly after images/ to the two letter language code)  For example:
+
+```
+[A village in Indonesia]: {{site.baseurl}}/images/xx/en_beg_01_introduction_image00_village-in-indonesia.png
+```
+- The 'en' that is a part of the file name will only be changed if you [translate/update the image](images.md) for your language
+- Copying all the images (even those you don't translate) prevents your image links from breaking if the English version is updated
 
 Helping the Translator Get Started
 ----------------------------------

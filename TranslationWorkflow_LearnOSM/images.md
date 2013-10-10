@@ -9,30 +9,25 @@ Updating Images Workflow (for githubber)
 Getting Ready
 -------------
 
-+ Find an image you want to translate/edit. There is specific markdown syntax for images. In the **0200-12-29-start-osm.md** chapter the third section is **NAVIGATE THE MAP** and includes an image with text. The position in the chapter text where the image appears is marked with the following code:
++ Find an image you want to translate/edit. 
+	- There is specific markdown syntax for images. In the **0200-12-29-start-osm.md** chapter the third section is **NAVIGATE THE MAP** and includes an image with text. The position in the chapter text where the image appears is marked with the following code:
 
 ```
     ![Mouse navigation][]
 ```
-At the end of the file, the location and file name of the image is contained in the following code:
+
+	- At the end of the file, the location and file name of the image is contained in the following code:
 
 ```
-    [Mouse navigation]: {{site.baseurl}}/images/en_beg_ch2_image02.png
+    [Mouse navigation]: {{site.baseurl}}/images/xx/en_beg_02_start-osm_image02_mouse-navigation.png
 ```
 
-+ Open the **learnosm/images** folder on your computer and find the image file you want to edit. 
-	- To edit the **Mouse navigation** image you would find the **en_beg_ch2_image02.png** file. 
-+ Make a copy. 
-	- Right click the file. Select **Copy** from the pop-up menu. Right click inside the folder but not on a file. Select **Paste** from the pop-up menu.
+	- Note: you should have copied and renamed the 'images/en' folder as well as updated the paths within the chapters as part of the 'Preparing the Folders and Files' step in the [githubber workflow](githubberWorkflow.md)
++ Open the **learnosm/images/xx** folder on your computer (the copy you created and renamed) and find the image file you want to edit. 
+	- To edit the **Mouse navigation** image you would find the **en_beg_02_start-osm_image02_mouse-navigation** file. 
++ Rename the image file.
+	- Replace 'en' with the two letter code for the new language.		
 
-![](https://raw.github.com/AmericanRedCross/Guides/master/TranslationWorkflow_LearnOSM/img/copyImage.png)
-
-+ Rename the file.
-	- Remove ' - copy' from the end of the file name.
-	- Replace 'en' with the two letter code for the new language.
-	- If the file name doesn't start with 'en' add the two letter code for the new language followed by an underscore.
-	- If 'en' appears somewhere else in the file name, delete it.
-+ At this step the **learnosm/images** folder would contain both a **en_beg_ch2_image02.png** file and a **xx_beg_ch2_image02.png** file.
 
 Editing the Image
 -----------------
@@ -75,11 +70,11 @@ Update the Code for the Chapter
 + For example, from this:
 
 ```
-    [Mouse navigation]: {{site.baseurl}}/images/en_beg_ch2_image02.png
+    [Mouse navigation]: {{site.baseurl}}/images/xx/en_beg_ch2_image02.png
 ```
 
 to this:
 
 ```
-    [Mouse navigation]: {{site.baseurl}}/images/xx_beg_ch2_image02.png
+    [Mouse navigation]: {{site.baseurl}}/images/xx/xx_beg_ch2_image02.png
 ```
