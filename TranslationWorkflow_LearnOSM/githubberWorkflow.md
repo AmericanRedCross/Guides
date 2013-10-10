@@ -36,19 +36,22 @@ Preparing the Folders and Files
     - The metadata will be at the top
     - Change 'en' in permalink and lang to the code for the target language
 - Edit the image paths for each chapter
-	- At the end of the chapter will be a list of image references like the following:
+- At the end of the chapter will be a list of image references like the following:
+	
 ```
-[A village in Indonesia]: {{site.baseurl}}/images/en/en_beg_01_introduction_image00_village-in-indonesia.png
-[Example of a hand-drawn map]: {{site.baseurl}}/images/en/en_beg_01_introduction_image01_hand-drawn-map.png
-[Examples of symbols]: {{site.baseurl}}/images/en/en_beg_01_introduction_image02_examples-of-symbols.png
-[Mapping on Computer]: {{site.baseurl}}/images/en/en_beg_01_introduction_image03_mapping-on-computer.png
-[Digital maps with OpenStreetMap]: {{site.baseurl}}/images/en/en_beg_01_introduction_image04_digital-maps-with-osm.png
+    [A village in Indonesia]: /images/en/en_beg_01_introduction_image00_village-in-indonesia.png
+    [Example of a hand-drawn map]: /images/en/en_beg_01_introduction_image01_hand-drawn-map.png
+    [Examples of symbols]: /images/en/en_beg_01_introduction_image02_examples-of-symbols.png
+    [Mapping on Computer]: /images/en/en_beg_01_introduction_image03_mapping-on-computer.png
+    [Digital maps with OpenStreetMap]: /images/en/en_beg_01_introduction_image04_digital-maps-with-osm.png
 ```
-	- Change the folder name (the first 'en' directly after images/ to the two letter language code)  For example:
+
+- Change the folder name (the first 'en' directly after images/ to the two letter language code)  For example:
 
 ```
-[A village in Indonesia]: {{site.baseurl}}/images/xx/en_beg_01_introduction_image00_village-in-indonesia.png
+    [A village in Indonesia]: /images/xx/en_beg_01_introduction_image00_village-in-indonesia.png
 ```
+
 - The 'en' that is a part of the file name will only be changed if you [translate/update the image](images.md) for your language
 - Copying all the images (even those you don't translate) prevents your image links from breaking if the English version is updated
 
@@ -64,7 +67,7 @@ Helping the Translator Get Started
 	- Give them the file name
     - Their workflow explains how to navigate to the file and make edits
 - Answer any technical questions the translator may have
-- If they encounter a problem with prose.io they may need your help to create a new issue on the (Prose GitHub issue page)[https://github.com/prose/prose/issues] 
+- If they encounter a problem with prose.io they may need your help to create a new issue on the [Prose GitHub issue page](https://github.com/prose/prose/issues) 
 
 Review and Quality Control
 --------------------------
@@ -79,7 +82,7 @@ Review and Quality Control
 Updating Images
 ---------------
 
-You may have noticed that some of the images have English text included. Editing these will require the use of an image editing software. You might need to take new screen shots, etc. 
+You may have noticed that some of the images have English text included. [Editing these](images.md) will require the use of an image editing software. You might need to take new screen shots, etc. 
 
 ** coming soon: more details about editing images, coordinating with translators, properly renaming the files, saving to the right location ** 
 
