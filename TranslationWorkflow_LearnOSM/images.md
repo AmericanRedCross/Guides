@@ -3,30 +3,29 @@ Updating Images Workflow (for githubber)
 
 ![](https://raw.github.com/AmericanRedCross/Guides/master/TranslationWorkflow_LearnOSM/img/inkscapelogo.png) [ Inkscape](http://inkscape.org/) is an Open Source vector graphics editor. Its many features and streamlined interface make it a useful tool. Download and install the program to follow along with this workflow. However, if you are familiar with a different graphics editor you can use your it and your own methods in the Editing the Image section of this workflow. 
 
-*Note: Some images may require new screen-grabs. This workflow covers the basic process of replacing a text box.*
+*Note: Some images may require new screen-grabs. This workflow covers currently the basic process of replacing a text box.*
 
 
 Getting Ready
 -------------
 
 + Find an image you want to translate/edit. 
-	- There is specific markdown syntax for images. In the **0200-12-29-start-osm.md** chapter the third section is **NAVIGATE THE MAP** and includes an image with text. The position in the chapter text where the image appears is marked with the following code:
++ There is specific markdown syntax for images. In the **0200-12-29-start-osm.md** chapter the third section is **NAVIGATE THE MAP** and includes an image with text. The position in the chapter text where the image appears is marked with the following code:
 
 ```
     ![Mouse navigation][]
-```
+```  
 
-	- At the end of the file, the location and file name of the image is contained in the following code:
++ At the end of the file, the location and file name of the image is contained in the following code:  
 
 ```
     [Mouse navigation]: {{site.baseurl}}/images/xx/en_beg_02_start-osm_image02_mouse-navigation.png
-```
+```  
 
-	- Note: you should have copied and renamed the 'images/en' folder as well as updated the paths within the chapters as part of the 'Preparing the Folders and Files' step in the [githubber workflow](githubberWorkflow.md)
++ __Note__: you should have copied and renamed the 'images/en' folder as well as updated the paths within the chapters as part of the 'Preparing the Folders and Files' step in the [githubber workflow](githubberWorkflow.md)
 + Open the **learnosm/images/xx** folder on your computer (the copy you created and renamed) and find the image file you want to edit. 
 	- To edit the **Mouse navigation** image you would find the **en_beg_02_start-osm_image02_mouse-navigation** file. 
-+ Rename the image file.
-	- Replace 'en' with the two letter code for the new language.		
++ Rename the image file. Replace 'en' with the two letter code for the new language.		
 
 
 Editing the Image
