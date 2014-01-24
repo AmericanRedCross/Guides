@@ -1,8 +1,7 @@
-
 Detailed Workflow for Translators
 =================================
 
-You want to help translate the information on learnOSM into an additional language? That's awesome! You are helping make a great resource accessible to a much wider audience. You will be coordinating with a GitHubber team member who will do the more technical work. You need to learn a few, easy technical skills. The hardest required skill is translating from English into your local language and you are already an expert!
+You want to help translate the information on learnOSM into an additional language? That's awesome! You are helping make a great resource accessible to a much wider audience. You will be coordinating with a GitHubber team member who will do the more technical work. You can conenct with other team members on the LearnOSM-coord mailing list, https://lists.openstreetmap.org/listinfo/learnosm-coord. You need to learn a few, easy technical skills. The hardest required skill is translating from English into your local language and you are already an expert!
 
 Setup a GitHub Account
 -----------------------
