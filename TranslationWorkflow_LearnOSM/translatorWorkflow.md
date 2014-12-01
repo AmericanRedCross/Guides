@@ -43,7 +43,7 @@ Navigating to LearnOSM Content Pages on Prose
 
 ![](https://raw.github.com/AmericanRedCross/Guides/master/TranslationWorkflow_LearnOSM/img/prose_nav03.png)
 
-- You should be directed to the '_posts' folder
+- After clicking on the 'learnosm' folder you should be automatically directed to the '_posts' folder
 - The folders on the page hold the different translations
 	- 'bi' is Bahasa Indonesia 
     - 'en' is English
@@ -69,7 +69,7 @@ Translating a LearnOSM Content Page on Prose
 
 - If you click the question mark in a bubble icon, a help menu will open
 - The help menu explains how to create various page elements in Markdown
-	- Review the [wikipedia entry](http://en.wikipedia.org/wiki/Markdown)as needed
+	- Review the [wikipedia entry](http://en.wikipedia.org/wiki/Markdown) as needed
     - Remember that you can also practice using the side-by-side comparison on [http://markdown.pioul.fr/](http://markdown.pioul.fr/) (you don't have to worry about making mistakes, and you don't have to switch between 'Edit' and 'Preview' to see how your typing is interpreted for display)
 
 ![](https://raw.github.com/AmericanRedCross/Guides/master/TranslationWorkflow_LearnOSM/img/prose_edit03.png)
@@ -91,7 +91,7 @@ Translating a LearnOSM Content Page on Prose
 
 ![](https://raw.github.com/AmericanRedCross/Guides/master/TranslationWorkflow_LearnOSM/img/prose_edit06.png)
 
-- The image belows shows some a second-level heading and part of a bulleted list
+- The image belows shows a second-level heading and part of a bulleted list
 	- Markdown is easy because the plain text formatting is similiar to the way the content is interpreted for display
 
 ![](https://raw.github.com/AmericanRedCross/Guides/master/TranslationWorkflow_LearnOSM/img/prose_edit07.png)
